@@ -1,0 +1,117 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #0D1B2A, #1B263B);
+    color: #E0E1DD;
+    padding: 25px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.hero span {
+    color: #778DA9;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #E0E1DD;
+}
+
+.btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 25px;
+    background: black;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+}
+
+/* TITLES */
+h2 {
+    font-size: 28px;
+    margin: 25px 0;
+    text-align: center;
+    color: ghostwhite;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    backdrop-filter: blur(12px);
+    margin: auto;
+    max-width: 650px;
+}
+
+/* ABOUT */
+.about-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* SKILLS */
+.skills-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-box span {
+    background: #778DA9;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* PROJECT */
+.project-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact-card p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #E0E1DD;
+    opacity: 0.7;
+}

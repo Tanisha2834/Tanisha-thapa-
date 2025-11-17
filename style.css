@@ -1,0 +1,30 @@
+<style>
+	*{
+		font-size: 30px;
+		font:sans-serif;
+	}
+	section {
+		min-height: 200px;
+		border:2px;
+	padding-left: 100px;}
+
+</section>
+#banner {
+	background-color:pink;
+}
+
+#section1{
+	background-color: deeppink;
+	margin-top: 50px;
+	padding-left: 100px;
+}
+#section2{
+	background-color: red;
+	margin-top: 40px;
+	padding-left: 100px;
+}
+#section3{
+	background-color: blue;
+	margin-bottom: 30px;
+	padding-left: 100px;
+}
